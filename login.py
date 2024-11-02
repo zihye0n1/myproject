@@ -137,7 +137,7 @@ if menu == '탈퇴':
 
 
 #데이터 삭제
-if btn:
+if btn :
     sql="""
 DELETE FROM user WHERE username="{id}"
 """

@@ -45,7 +45,6 @@ function loadTodos() {
     });
 }
 
-// 할 일을 로컬 저장소에 저장하기
 function saveTodos() {
     const todoList = document.getElementById('todoList');
     const todos = [];
